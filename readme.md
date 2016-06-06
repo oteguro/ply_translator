@@ -15,3 +15,4 @@ This software is public domain.
 
 Write(Export) ply file.
 
+![ply_translator image](https://raw.githubusercontent.com/wiki/oteguro/ply_translator/images/ply_translator.png)
