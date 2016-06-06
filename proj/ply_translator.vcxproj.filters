@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{49e3bb53-36ee-40e1-93b6-9f77b3160ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\external">
+      <UniqueIdentifier>{00377a21-d307-4d0e-9a18-aae61e8bc026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\external\tinyply">
+      <UniqueIdentifier>{fa0ad638-f501-4420-a0f1-8a02636f91de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\plugin_main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ply_translator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\tinyply\tinyply.cpp">
+      <Filter>src\external\tinyply</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ply_translator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\tinyply\tinyply.h">
+      <Filter>src\external\tinyply</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
